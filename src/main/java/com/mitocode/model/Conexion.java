@@ -2,7 +2,7 @@ package com.mitocode.model;
 
 public class Conexion {
 	
-	//Declaración
+	//Declaraciï¿½n, recuerda que static significa que este miembro es parte de la clase y no de una instancia de la clase
 	private static Conexion instancia;
 	//private static Conexion instancia = new Conexion();
 	
@@ -20,14 +20,14 @@ public class Conexion {
 		return instancia;
 	}
 	
-	//Método de prueba
+	//Mï¿½todo de prueba
 	public void conectar() {
-		System.out.println("Me conecté a la BD");
+		System.out.println("Me conectï¿½ a la BD");
 	}
 	
-	//Método de prueba
+	//Mï¿½todo de prueba
 	public void desconectar() {
-		System.out.println("Me desconecté de la BD");
+		System.out.println("Me desconectï¿½ de la BD");
 	}
 
 }
